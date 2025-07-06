@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { Navbar, Nav, NavDropdown, Container, Button, Badge } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
-import './header.css'
+import './Header.css'
 
 const Header = () => {
   const { cart, setActiveCategory } = useContext(AppContext);
